@@ -565,8 +565,9 @@ export default function App() {
                           <a href={`mailto:${resumeData.contact.email}`} aria-label={`Email Ashley at ${resumeData.contact.email}`} className="relative inline-block text-gray-600 hover:text-[#1F32FF] transition-colors text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1F32FF] focus-visible:ring-offset-2 focus-visible:ring-offset-white after:content-[''] after:absolute after:bottom-[-2px] after:left-1/2 after:h-[1.p-4x] after:w-0 after:bg-[#1F32FF] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full focus-visible:after:w-full">{resumeData.contact.email}</a>
                           <a
                               href="/ashley-golen-johnston-resume.pdf"
-                              download="Ashley_Golen_Johnston_Resume.pdf"
-                              aria-label="Download resume as PDF"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label="Download resume as PDF (opens in a new tab)"
                               className="group mt-4 flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 hover:bg-[#1F32FF] hover:border-[#1F32FF] hover:text-white active:scale-[0.98] transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1F32FF] focus-visible:ring-offset-2 focus-visible:ring-offset-white"
                             >
                                 <DownloadIcon className="h-5 w-5 mr-1.5 text-gray-500 group-hover:text-white transition-colors duration-200 ease-out" />
