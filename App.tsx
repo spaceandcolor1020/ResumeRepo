@@ -564,7 +564,7 @@ export default function App() {
                           <a href={`tel:${resumeData.contact.phone.replace(/\./g, '')}`} aria-label={`Call Ashley at ${resumeData.contact.phone}`} className="relative inline-block text-gray-600 hover:text-[#1F32FF] transition-colors text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1F32FF] focus-visible:ring-offset-2 focus-visible:ring-offset-white after:content-[''] after:absolute after:bottom-[-2px] after:left-1/2 after:h-[1.5px] after:w-0 after:bg-[#1F32FF] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full focus-visible:after:w-full">{resumeData.contact.phone}</a>
                           <a href={`mailto:${resumeData.contact.email}`} aria-label={`Email Ashley at ${resumeData.contact.email}`} className="relative inline-block text-gray-600 hover:text-[#1F32FF] transition-colors text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1F32FF] focus-visible:ring-offset-2 focus-visible:ring-offset-white after:content-[''] after:absolute after:bottom-[-2px] after:left-1/2 after:h-[1.p-4x] after:w-0 after:bg-[#1F32FF] after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full focus-visible:after:w-full">{resumeData.contact.email}</a>
                           <a
-                              href="/ashley-golen-johnston-resume.pdf"
+                              href="./ashley-golen-johnston-resume.pdf"
                               target="_blank"
                               rel="noopener noreferrer"
                               aria-label="Download resume as PDF (opens in a new tab)"
